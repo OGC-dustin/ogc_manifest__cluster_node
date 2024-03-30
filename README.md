@@ -16,7 +16,7 @@ sudo locale-gen en_US.UTF-8
 * Use Google's repo tool to reference this manifest and get all associated repositories
 * https://git-repo.info/en/docs/multi-repos/overview/
 ````
-repo init -u https://github.com/OGC-dustin/ogc_manifest__cluster_node.git
+repo init -u https://github.com/OGC-dustin/ogc_manifest__cluster_node.git -b kirkstone
 repo sync
 ````
 * source the poky build environment ( will put you in the build folder ) ( TODO: customize environment as noted below )
