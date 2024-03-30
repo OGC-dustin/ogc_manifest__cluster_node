@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="ogc"      fetch="git@github.com:OGC-dustin"/>
+  <remote name="ti"       fetch="git://git.ti.com/arago-project/meta-ti.git"/>
+  <remote name="yocto"    fetch="git://git.yoctoproject.org"/>
+  <remote name="oe"       fetch="git://git.openembedded.org"/>
+
+  <default sync-j="4"/>
+
+  <project remote="ogc"        revision="kirkstone"      name="ogc_manifest__cyclops"                path="sources/manifest"/>
+  <project remote="ogc"        revision="kirkstone"      name="ogc_yocto_customization__hostname"    path="sources/ogc_yocto_customization__hostname"/>
+  <project remote="ogc"        revision="kirkstone"      name="ogc_yocto_customization__psplash"     path="sources/ogc_yocto_customization__psplash"/>
+
+  <project remote="yocto"      revision="kirkstone"      name="poky"                                 path="sources/poky"/>
+  <project remote="ti"         revision="kirkstone"      name="meta-ti"                              path="sources/meta-ti"/>
+  <project remote="oe"         revision="kirkstone"      name="meta-openembedded"                    path="sources/meta-openembedded"/>
+</manifest>
