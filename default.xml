@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="ogc"      fetch="git@github.com:OGC-dustin"/>
-  <remote name="ti"       fetch="https://git.ti.com/git/arago-project/meta-ti.git"/>
+  <remote name="ti"       fetch="https://git.ti.com/git/arago-project"/>
   <remote name="yocto"    fetch="git://git.yoctoproject.org"/>
   <remote name="oe"       fetch="git://git.openembedded.org"/>
 
