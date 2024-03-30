@@ -12,6 +12,7 @@
   <project remote="ogc"        revision="kirkstone"      name="ogc_yocto_customization__psplash"     path="sources/ogc_yocto_customization__psplash"/>
 
   <project remote="yocto"      revision="kirkstone"      name="poky"                                 path="sources/poky"/>
+  <project remote="yocto"      revision="kirkstone"      name="meta-arm"                             path="sources/meta-arm"/>
   <project remote="ti"         revision="kirkstone"      name="meta-ti"                              path="sources/meta-ti"/>
   <project remote="oe"         revision="kirkstone"      name="meta-openembedded"                    path="sources/meta-openembedded"/>
 </manifest>
